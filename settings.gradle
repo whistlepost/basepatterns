@@ -1,0 +1,3 @@
+include 'basepatterns-app'
+include 'basepatterns-content'
+include 'basepatterns-config'
