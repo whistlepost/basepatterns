@@ -1,0 +1,25 @@
+{
+  "title":"@projectName@",
+  "sling:resourceType":"@projectId@/page/list",
+  "jcr:primaryType":"nt:unstructured",
+  "list": {
+    "sling:resourceType": "@projectId@/block/article-list",
+    "opengraph_type": "article",
+    "paging": {
+      "sling:resourceType": "wp-paging/block/paging",
+      "pageSize": 6,
+      "total": 0
+    },
+    "thinking-feeling-coding": {
+      "sling:resourceType":"@projectId@/page/article",
+      "date": "2016-09-14",
+      "title": "Thinking, feeling, coding",
+      "pars": [
+        "Many people may believe software development is a very mechanical process, however it is anything but. Many decisions go into structuring, architecting and designing the components of software, and there are very little constraints to how you do it. As a result, often choices must be made on past experience, intuition and a general sense of whether it feels right.",
+        "The comparison is often made between engineering disciplines of the physical world and that of the computing world. However the one irreconcilable​difference is identified in the definitions alone: software 'engineering' is not constrained by physical limitations."
+      ],
+      "published": false,
+      "related": []
+    }
+  }
+}

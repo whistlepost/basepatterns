@@ -1,0 +1,14 @@
+{
+  "title":"@projectName@",
+  "sling:resourceType":"@projectId@/page/list",
+  "jcr:primaryType":"nt:unstructured",
+  "list": {
+    "sling:resourceType": "@projectId@/block/technology-list",
+    "opengraph_type": "article",
+    "paging": {
+      "sling:resourceType": "wp-paging/block/paging",
+      "pageSize": 6,
+      "total": 0
+    }
+  }
+}
