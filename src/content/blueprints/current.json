@@ -1,0 +1,12 @@
+{
+  "list": {
+    "apachesling-server-aws": {
+      "name": "Apache Sling (AWS)",
+      "description": "",
+      "tags": ["compute", "web"],
+      "platform": "aws",
+      "layer": "frontend",
+      "url": "https://github.com/micronode/bedrock/tree/feature/accelerators/blueprints/apachesling/server/aws"
+    }
+  }
+}
